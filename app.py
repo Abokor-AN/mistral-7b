@@ -5,7 +5,7 @@ from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 
 llm = CTransformers(
-    model='mistralai\Mistral-7B-Instruct-v0.2-GGUF\mistral-7b-instruct-v0.2.Q4_K_M.gguf', callbacks=[StreamingStdOutCallbackHandler()]
+    model='mistralai\Mistral-7B-Instruct-v0.2-GGUF\mistral-7b-instruct-v0.2.Q6_K.gguf', callbacks=[StreamingStdOutCallbackHandler()]
 )
 
 template = """Question: {question}
